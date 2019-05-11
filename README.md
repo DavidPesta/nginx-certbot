@@ -12,7 +12,7 @@ application.
 ## Installation
 1. [Install docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
-2. Clone this repository: `git clone https://github.com/wmnnd/nginx-certbot.git .`
+2. Clone this repository: `git clone https://github.com/DavidPesta/nginx-certbot .`
 
 3. Modify configuration:
 - Add domains and email addresses to init-letsencrypt.sh
@@ -25,7 +25,7 @@ chmod +x ./init-letsencrypt.sh
 ```
 
 5. Run server:
-`docker-compose up`
+`docker-compose up -d`
 
 ## Got questions?
 Feel free to post questions in the comment section of the [accompanying guide](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71)
